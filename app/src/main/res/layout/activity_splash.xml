@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="197dp"
+            android:layout_height="227dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/quiz2_removebg_preview" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="130dp"
+            android:layout_height="37dp"
+            android:layout_below="@id/logo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="59dp"
+            android:gravity="center"
+            android:text="@string/quiz_app"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

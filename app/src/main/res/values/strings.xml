@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz_App</string>
+    <string name="textview">Total Question</string>
+    <string name="question">This is for Question Part\n</string>
+    <string name="choice1">Ans A</string>
+    <string name="choice2">Ans B</string>
+    <string name="choice3">Ans C</string>
+    <string name="choice4">Ans D</string>
+    <string name="submit">Submit</string>
+    <string name="processing">Grow Your Knowledge</string>
+    <string name="quiz_app">Quizzz</string>
+</resources>
